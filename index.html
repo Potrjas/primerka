@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Примерка</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/jquery.js"></script>
+    <script src="js/joint.js"></script>
+</head>
+<body>
+    <main>
+        <div>
+            <div>
+                <h2>
+                    Ваша фигура
+                </h2>
+                <div>
+                    <p>
+                        Рост
+                        <input type="text" value="" title="" />
+                    </p>
+                    <a href="#" class="fa" onclick="return false;">&#xf147;</a>
+                    <a href="#" class="fa" onclick="return false;">&#xf196;</a>
+                    <hr /><hr />
+                    <input type="range" min="155" max="198" value="180" title="" />
+                </div>
+                <div>
+                    <p>
+                        Обхват груди
+                        <input type="text" value="" title="" />
+                    </p>
+                    <a href="#" class="fa" onclick="return false;">&#xf147;</a>
+                    <a href="#" class="fa" onclick="return false;">&#xf196;</a>
+                    <hr /><hr />
+                    <input type="range" min="85" max="140" value="106" title="" />
+                </div>
+                <div>
+                    <p>
+                        Обхват талии
+                        <input type="text" value="" title="" />
+                    </p>
+                    <a href="#" class="fa" onclick="return false;">&#xf147;</a>
+                    <a href="#" class="fa" onclick="return false;">&#xf196;</a>
+                    <hr /><hr />
+                    <input type="range" min="72" max="140" value="95" title="" />
+                </div>
+            </div>
+            <div>
+                <h2>
+                    Дополнительные параметры
+                    <span class="fa"></span>
+                </h2>
+                <div>
+                    <p>
+                        Ворот
+                        <input type="text" value="" title="" />
+                    </p>
+                    <a href="#" class="fa" onclick="return false;">&#xf147;</a>
+                    <a href="#" class="fa" onclick="return false;">&#xf196;</a>
+                    <hr /><hr />
+                    <input type="range" min="37" max="52" value="40" title="" />
+                </div>
+                <div>
+                    <p>
+                        Длина руки
+                        <input type="text" value="" title="" />
+                    </p>
+                    <a href="#" class="fa" onclick="return false;">&#xf147;</a>
+                    <a href="#" class="fa" onclick="return false;">&#xf196;</a>
+                    <hr /><hr />
+                    <input type="range" min="58" max="75" value="73" title="" />
+                </div>
+                <div>
+                    <p>
+                        Длина брючин
+                        <input type="text" value="" title="" />
+                    </p>
+                    <a href="#" class="fa" onclick="return false;">&#xf147;</a>
+                    <a href="#" class="fa" onclick="return false;">&#xf196;</a>
+                    <hr /><hr />
+                    <input type="range" min="95" max="120" value="110" title="" />
+                </div>
+                <div>
+                    <p>
+                        Бицепс
+                        <input type="text" value="" title="" />
+                    </p>
+                    <a href="#" class="fa" onclick="return false;">&#xf147;</a>
+                    <a href="#" class="fa" onclick="return false;">&#xf196;</a>
+                    <hr /><hr />
+                    <input type="range" min="28" max="60" value="40" title="" />
+                </div>
+                <div>
+                    <p>
+                        Бедра<input type="text" value="" title="" />
+                    </p>
+                    <a href="#" class="fa" onclick="return false;">&#xf147;</a>
+                    <a href="#" class="fa" onclick="return false;">&#xf196;</a>
+                    <hr /><hr />
+                    <input type="range" min="88" max="150" value="105" title="" />
+                </div>
+            </div>
+        </div>
+        <div>
+            <div>
+                <img src="img/dummy04.png" />
+                <img src="img/advice-1.png" />
+                <img src="img/advice-2.png" />
+                <img src="img/advice-3.png" />
+            </div>
+            <a class="red callMod" href="#" onclick="return false;">Схема замеров фигуры</a>
+            <div>
+                <h2>
+                    Хорошо сидит
+                    <span>5 <sup class="fa">&#xf005;</sup></span>
+                </h2>
+                <p>
+                    Рост:
+                    <span>подходит идеально</span>
+                    <span>5 <sup class="fa">&#xf005;</sup></span>
+                </p>
+                <p>
+                    Обхват груди:
+                    <span>подходит идеально</span>
+                    <span>5 <sup class="fa">&#xf005;</sup></span>
+                </p>
+                <p>
+                    Обхват талии:
+                    <span>подходит идеально</span>
+                    <span>5 <sup class="fa">&#xf005;</sup></span>
+                </p>
+                <p>
+                    Ворот:
+                    <span>подходит идеально</span>
+                    <span>5 <sup class="fa">&#xf005;</sup></span>
+                </p>
+                <p>
+                    Длина руки:
+                    <span>подходит идеально</span>
+                    <span>5 <sup class="fa">&#xf005;</sup></span>
+                </p>
+                <p>
+                    Длина брючин:
+                    <span>подходит идеально</span>
+                    <span>5 <sup class="fa">&#xf005;</sup></span>
+                </p>
+                <p>
+                    Бицепс:
+                    <span>подходит идеально</span>
+                    <span>5 <sup class="fa">&#xf005;</sup></span>
+                </p>
+                <p>
+                    Бедра:
+                    <span>подходит идеально</span>
+                    <span>5 <sup class="fa">&#xf005;</sup></span>
+                </p>
+                <div class="overlay">
+                    <h2>Выберите товар</h2>
+                </div>
+            </div>
+        </div>
+        <div>
+            <a class="red" href="#" onclick="return false;">Каталог товаров</a>
+            <a class="red" href="#" onclick="return false;">История просмотров</a>
+            <menu>
+                <a href="#" onclick="return false;">Новинка</a>
+                <a href="#" onclick="return false;">Хит</a>
+                <a href="#" onclick="return false;">Акция</a>
+                <a href="#" onclick="return false;">
+                    <span class="fa">&#xf078;</span>
+                    От дорогих
+                </a>
+                <a href="#" onclick="return false;">
+                    <span class="fa">&#xf077;</span>
+                    От дешевых
+                </a>
+            </menu>
+            <aside>
+                <a class="fa" href="#" onclick="return false;">&#xf077;</a>
+                <div>
+                    <a href="#" onclick="return false;">2</a>
+                    <a class="act" href="#" onclick="return false;">3</a>
+                    <a href="#" onclick="return false;">4</a>
+                    <a href="#" onclick="return false;">5</a>
+                    <a href="#" onclick="return false;">6</a>
+                    <a href="#" onclick="return false;">7</a>
+                    <a href="#" onclick="return false;">8</a>
+                    <a href="#" onclick="return false;">9</a>
+                </div>
+                <a class="fa" href="#" onclick="return false;">&#xf078;</a>
+            </aside>
+            <aside>
+                <span class="selected"><img src="img/min_scroll_1.png" /></span>
+                <span><img src="img/min_scroll_2.png" /></span>
+                <span><img src="img/min_scroll_3.png" /></span>
+                <span><img src="img/min_scroll_4.png" /></span>
+                <span><img src="img/min_scroll_5.png" /></span>
+                <span><img src="img/min_scroll_6.png" /></span>
+            </aside>
+            <div>
+                <div>
+                    <div>
+                        <span>1715 ₴</span>
+                        <a class="handler" href="#" onclick="return false;"></a>
+                    </div>
+                    <h3>
+                        пиджак мужской фактурный синего цвета с карманами
+                    </h3>
+                </div>
+                <div>
+                    <div>
+                        <span>1715 ₴</span>
+                        <a class="handler" href="#" onclick="return false;"></a>
+                    </div>
+                    <h3>
+                        пиджак мужской фактурный синего цвета
+                    </h3>
+                </div>
+                <div>
+                    <div>
+                        <span>1715 ₴</span>
+                        <a class="handler" href="#" onclick="return false;"></a>
+                    </div>
+                    <h3>
+                        пиджак мужской фактурный синего цвета с карманами
+                    </h3>
+                </div>
+                <div>
+                    <div>
+                        <span>1715 ₴</span>
+                        <a class="handler" href="#" onclick="return false;"></a>
+                    </div>
+                    <h3>
+                        пиджак мужской фактурный синего цвета
+                    </h3>
+                </div>
+                <div>
+                    <div>
+                        <span>1715 ₴</span>
+                        <a class="handler" href="#" onclick="return false;"></a>
+                    </div>
+                    <h3>
+                        пиджак мужской фактурный синего цвета с карманами
+                    </h3>
+                </div>
+                <div>
+                    <div>
+                        <span>1715 ₴</span>
+                        <a class="handler" href="#" onclick="return false;"></a>
+                    </div>
+                    <h3>
+                        пиджак мужской фактурный синего цвета
+                    </h3>
+                </div>
+                <div>
+                    <div>
+                        <span>1715 ₴</span>
+                        <a class="handler" href="#" onclick="return false;"></a>
+                    </div>
+                    <h3>
+                        пиджак мужской фактурный синего цвета с карманами
+                    </h3>
+                </div>
+                <div>
+                    <div>
+                        <span>1715 ₴</span>
+                        <a class="handler" href="#" onclick="return false;"></a>
+                    </div>
+                    <h3>
+                        пиджак мужской фактурный синего цвета
+                    </h3>
+                </div>
+                <div>
+                    <div>
+                        <span>1715 ₴</span>
+                        <a class="handler" href="#" onclick="return false;"></a>
+                    </div>
+                    <h3>
+                        пиджак мужской фактурный синего цвета с карманами
+                    </h3>
+                </div>
+                <div>
+                    <div>
+                        <span>1715 ₴</span>
+                        <a class="handler" href="#" onclick="return false;"></a>
+                    </div>
+                    <h3>
+                        пиджак мужской фактурный синего цвета
+                    </h3>
+                </div>
+                <div>
+                    <div>
+                        <span>1715 ₴</span>
+                        <a class="handler" href="#" onclick="return false;"></a>
+                    </div>
+                    <h3>
+                        пиджак мужской фактурный синего цвета с карманами
+                    </h3>
+                </div>
+                <div>
+                    <div>
+                        <span>1715 ₴</span>
+                        <a class="handler" href="#" onclick="return false;"></a>
+                    </div>
+                    <h3>
+                        пиджак мужской фактурный синего цвета
+                    </h3>
+                </div>
+                <div>
+                    <div>
+                        <span>1715 ₴</span>
+                        <a class="handler" href="#" onclick="return false;"></a>
+                    </div>
+                    <h3>
+                        пиджак мужской фактурный синего цвета с карманами
+                    </h3>
+                </div>
+                <div>
+                    <div>
+                        <span>1715 ₴</span>
+                        <a class="handler" href="#" onclick="return false;"></a>
+                    </div>
+                    <h3>
+                        пиджак мужской фактурный синего цвета
+                    </h3>
+                </div>
+                <div>
+                    <div>
+                        <span>1715 ₴</span>
+                        <a class="handler" href="#" onclick="return false;"></a>
+                    </div>
+                    <h3>
+                        пиджак мужской фактурный синего цвета с карманами
+                    </h3>
+                </div>
+                <div>
+                    <div>
+                        <span>1715 ₴</span>
+                        <a class="handler" href="#" onclick="return false;"></a>
+                    </div>
+                    <h3>
+                        пиджак мужской фактурный синего цвета
+                    </h3>
+                </div>
+            </div>
+            <div class="overlay">
+                <h2>Введите параметры фигуры</h2>
+            </div>
+        </div>
+        <div>
+            <h2>В примерочной</h2>
+            <figure>
+                <img src="http://tamir.ua/content/thumbs/67b7fa8f791b549ce05eecbb1c09427a/w400_content_catalog_images_2016_10_09__MG_1790-min.jpg" />
+                <figcaption>
+                    пиджак мужской фактурный синего цвета с карманами
+                    <span>1715 ₴</span>
+                </figcaption>
+                <div class="overlay">
+                    <h2>Выберите товар</h2>
+                </div>
+            </figure>
+            <div class="animatedButton">
+                <hr />
+                <button>в корзину</button>
+            </div>
+            <h2>С этим выбирают:</h2>
+            <div class="overlay">
+                <h2>Выберите товар</h2>
+            </div>
+            <div>
+                <a href="#" onclick="return false;">
+                    <span>пиджак мужской фактурный синего цвета с карманами</span>
+                    <span>1715 ₴</span>
+                </a>
+                <a href="#" onclick="return false;">
+                    <span>пиджак мужской фактурный синего цвета с карманами</span>
+                    <span>1715 ₴</span>
+                </a>
+                <a href="#" onclick="return false;">
+                    <span>пиджак мужской фактурный синего цвета с карманами</span>
+                    <span>1715 ₴</span>
+                </a>
+                <a href="#" onclick="return false;">
+                    <span>пиджак мужской фактурный синего цвета с карманами</span>
+                    <span>1715 ₴</span>
+                </a>
+                <a href="#" onclick="return false;">
+                    <span>пиджак мужской фактурный синего цвета с карманами</span>
+                    <span>1715 ₴</span>
+                </a>
+                <a href="#" onclick="return false;">
+                    <span>пиджак мужской фактурный синего цвета с карманами</span>
+                    <span>1715 ₴</span>
+                </a>
+            </div>
+            <aside>
+                <a class="fa" href="#" onclick="return false;">&#xf053;</a>
+                <div>
+                    <a href="#" onclick="return false;">2</a>
+                    <a class="act" href="#" onclick="return false;">3</a>
+                    <a href="#" onclick="return false;">4</a>
+                    <a href="#" onclick="return false;">5</a>
+                    <a href="#" onclick="return false;">6</a>
+                    <a href="#" onclick="return false;">7</a>
+                    <a href="#" onclick="return false;">8</a>
+                    <a href="#" onclick="return false;">9</a>
+                </div>
+                <a class="fa" href="#" onclick="return false;">&#xf054;</a>
+            </aside>
+        </div>
+        <div>
+            <form>
+                <p>Для сохраниния персональных данных войдите</p>
+                <input id="phone" type="text" required title="" />
+                <label for="phone">Телефон/Email</label>
+                <input id="pass" type="password" required title="" />
+                <label for="pass">Пароль</label>
+                <div class="animatedButton">
+                    <hr />
+                    <button>войти</button>
+                </div>
+                <a href="#" onclick="return false;">Напомнить пароль?</a>
+                <p>Авторизация через соцсети</p>
+                <div class="social">
+                    <a href="#" onclick="return false;">
+                        <img src="img/ico_FB.png" />
+                    </a>
+                    <a href="#" onclick="return false;">
+                        <img src="img/ico_G.png" />
+                    </a>
+                    <a href="#" onclick="return false;">
+                        <img src="img/ico_OK.png" />
+                    </a>
+                    <a href="#" onclick="return false;">
+                        <img src="img/ico_VK.png" />
+                    </a>
+                </div>
+                <p>
+                    Или
+                    <br />
+                    <a class="red trigger" href="#" onclick="return false;">зарегистрируйтесь</a>
+                </p>
+            </form>
+            <form>
+                <input id="regFullName" type="text" required title="" />
+                <label for="regFullName">ФИО</label>
+                <input id="regPhone" type="text" required title="" />
+                <label for="regPhone">Телефон/Email</label>
+                <input id="regPass" type="password" required title="" />
+                <label for="regPass">Пароль</label>
+                <input id="regPass2" type="password" required title="" />
+                <label for="regPass2">Повторить пароль</label>
+                <div class="animatedButton">
+                    <hr />
+                    <button>регистрация</button>
+                </div>
+                <p>
+                    Или
+                    <br />
+                    <a class="red trigger" href="#" onclick="return false;">воидите</a>
+                </p>
+            </form>
+            <div>
+                <p>Скачайте наше приложение на свое устройство</p>
+                <br />
+                <button class="dl">
+                    <img src="img/ico_apple.png" />
+                    <span>App Store</span>
+                </button>
+                <button class="dl">
+                    <img src="img/ico_GP.png" />
+                    <span>Google Play</span>
+                </button>
+            </div>
+        </div>
+        <div>
+            <h4>Личный кабинет</h4>
+            <h4>Ваши бонусы</h4>
+            <h4>Схема замеров</h4>
+            <hr />
+    
+            <div class="animatedButton">
+                <hr />
+                <button>закрыть</button>
+            </div>
+        </div>
+    </main>
+    <div class="overlay"></div>
+</body>
+</html>
